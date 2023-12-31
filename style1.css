@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url('image/background1.jpg');
+    background-image: url('tet-2024.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
@@ -31,19 +31,19 @@ body{
     font-size: 40px;
     font-family: 'Lobster', cursive;
     letter-spacing: 1px;
-    color: #fff;
+    color: #fffcfc;
 }
 .wrapper .box-time{
     position: relative;
     display: flex;
     line-height: normal;
-    width: 530px;
+    width: 375px;
     justify-content: space-between;
 }
 .box-time .time{
     position: relative;
-    width: 120px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,8 +56,8 @@ body{
 .box-time .time::before{
     position: absolute;
     content: '';
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border: 11px solid rgb(251, 255, 0);
     box-shadow: inset 0 0 10px #333;
     border-radius: 50%;
